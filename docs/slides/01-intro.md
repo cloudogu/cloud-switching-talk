@@ -23,8 +23,13 @@
 
 
 <div class="title-version">
-Version: 202603271159-a9db2f0
+Version: 202603271205-1c170f0
 </div>
+
+<p id="pdf" class="state-background" style="font-size: 70%">
+    <a href="pdf/Bye-bye Lock-in Automate cloud switching using open source.pdf">
+       <i class="far fa-file-pdf"></i>
+</a></p>
 
 
 
