@@ -1,0 +1,1 @@
+![](images/additional-steps-final-migration.png)
