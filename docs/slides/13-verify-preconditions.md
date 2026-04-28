@@ -1,0 +1,1 @@
+![](images/verify-preconditions.png)
