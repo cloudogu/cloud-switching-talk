@@ -37,7 +37,7 @@
 
 
 <div class="title-version">
-Version: 202604280603-b0b6936
+Version: 202604291606-5f06a9c
 </div>
 
 <p id="pdf" class="state-background" style="font-size: 70%">
@@ -48,11 +48,27 @@ Version: 202604280603-b0b6936
 
 
 ## But Why?  <!-- .element style="margin-bottom: 0px"-->
+<!-- .slide: id="IDPaaS" data-auto-animate -->
+<img data-src="images/EcoSystem-Layers-1.svg" title="Cloudogu EcoSystem shown in context/layers" width="99%" />
+
+
+
+## But Why?  <!-- .element style="margin-bottom: 0px"-->
+<!-- .slide: id="IDPaaS" data-auto-animate -->
+<img data-src="images/EcoSystem-Layers-2.svg" title="Cloudogu EcoSystem shown in context/layers" width="99%" />
+
+
+
+## But Why?  <!-- .element style="margin-bottom: 0px"-->
+<!-- .slide: id="IDPaaS" data-auto-animate -->
 <img data-src="images/EcoSystem-Layers.drawio.svg" title="Cloudogu EcoSystem shown in context/layers" width="99%" />
 
 
 
+<img src="images/buzzwords.jpg" class="floatRight fragment" style="border-radius: 5px">
+
 ### Reasons to switch
+
 
 * 🇺🇸
   <i class="fas fa-arrow-left"></i><i class="fas fa-arrow-right"></i>
@@ -65,7 +81,7 @@ Version: 202604280603-b0b6936
  🏠️
 * ...
 
-➡️ Portability
+‼️ Ability to switch (digital sovereignty)
 
 ➡️ Multi Cloud
 
