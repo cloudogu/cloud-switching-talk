@@ -1,4 +1,5 @@
-# Preparing the migration
+# Preparing the<br/>migration
+<!-- .slide: data-background-image="images/cloud-switching.jpg"  -->
 
 
 
