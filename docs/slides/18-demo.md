@@ -1,6 +1,3 @@
-# Finishing the<br/>migration
+# Demo migration
 <!-- .slide: data-background-image="images/cloud-switching.jpg"  -->
-
-
-
-![](images/finish-migration.png)
+![](images/GoogleToMetalstack.png)
