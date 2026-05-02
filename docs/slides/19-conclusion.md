@@ -14,4 +14,3 @@
 * ✅ PoCs helped de-risk key decisions
 * ✅ Separation (exporter / importer) kept it flexible
 * ❌ Manual testing became a bottleneck
-* ❌ Automation came too late
