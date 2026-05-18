@@ -39,14 +39,14 @@
 </div>
 
 <div style="font-size:80%">
-<!--<a href='https://www.linkedin.com/in/' target="_blank"><i class='fab fa-linkedin'></i> in/</a>=-->
-<a href='https://www.linkedin.com/in/jschnatterer' target="_blank" style="margin-left: 50px"><i class='fab fa-linkedin'></i> in/jschnatterer</a>
+<a href='https://www.linkedin.com/in/meiserloh' target="_blank"><i class='fab fa-linkedin'></i> in/meiserloh</a>
 <a href='https://floss.social/@schnatterer' style="margin-left: 50px"><i class='fab fa-mastodon'></i> @schnatterer@floss.social</a>
+<a href='https://www.linkedin.com/in/jschnatterer' target="_blank" style="margin-left: 50px"><i class='fab fa-linkedin'></i> in/jschnatterer</a>
 </div>
 
 
 <div class="title-version">
-Version: 202605180832-425fd73
+Version: 202605181543-8ecc476
 </div>
 
 <p id="pdf" class="state-background" style="font-size: 70%">
@@ -55,6 +55,9 @@ Version: 202605180832-425fd73
 </a></p>
 
 Notes:
+
+Present our concept for cloud switching, incl OSS impl.
+Concretely: 
 1. How come we implemented automatic cloud switching
 2. how automatic cloud switching works
 3. switch cloud provider life
@@ -81,7 +84,7 @@ Notes:
   * Cross tool queries 
   * central configuration of LLM Provider
 * LowOps - simplifying operations
-  * Pre-configured tools (SSO, KI, Menü)
+  * Pre-configured tools (SSO, AI, menu) - also when adding tools later 
   * Integrated monitoring
   * automatic backups
   * Automatable updates (incl. Major Updates). This allows a large number of isolated tenants to be kept up to date with little effort.
@@ -97,7 +100,7 @@ Notes:
 * We have been around for about 10 years
 * Back then k8s not the de-facto standard it is today
 * We started shipping VMs and now have several hundred instances in prod
-* Migration must be automatated
+* Migration must be automated
 * Idea: Migration concept for migrating VM -> K8s can also be used for k8s -> k8s.
 * So we built it
 
@@ -128,6 +131,7 @@ Notes:
 * We also deployed on Hyperscalers if needed.
 * With k8s fundamentally establishes infrastructure independence.
 * Nothing special – everyone does k8s these days.
+* Still, nobody likes to switch the cloud provider, because it causes efforts, downtime, risks. 
 * With automatic cloud switching we go one step further, allowing easy change the underlying infrastructure layer i.e., the cloud provider. This can be done without user recognizing it.
 
 
@@ -156,7 +160,7 @@ Notes:
 * Why change at all?
 * Political uncertainty -> Being able to bring workloads back to home country.
   Or maybe when times change, bring it back because, cheaper, more compute available, etc.
-* Cost increase
+* Evergreen: Cost increase
 * Migrating workloads from on prem to the cloud or back
 * Can be many reasons.
 * Most important for all: Ability to switch -> Also core aspect of digi sov
@@ -164,7 +168,9 @@ Notes:
 * A lot of buzzwords! Questions
   * Is Multi Cloud a mere buzzword to you?
   * Who is using multi cloud architectures?
-* Let's define the buzzword multi cloud!
+* IMO on a political level multi cloud is used as an abstract buzzword, similar to AI
+* But for us techies, we can make it more concrete.
+* I'd like to present a model to get there
 
 
 
@@ -177,13 +183,15 @@ Notes:
 
 Note:
 * Gregor Hohpe: MC = "running workloads with more than one cloud provider"
-* Distinction from hybrid: "splitting workload(s) across the cloud and on-premise." -> Decide which workloads to move out
-* Multi-Cloud: Architecture decision -> Strategy
+* Multi-Cloud: Architecture decision -> Strategy.
+* GH sees 5 categories
 
 1. Arbitrary: No strategy, switch when too expensive, for example
-2. Segmented:  different vendor preferences for different kind of workloads, e.g. using individual vendor strength (VMs/K8s; Confidentiality; AI/ML;
+2. Segmented:  different vendor preferences for different kind of workloads, e.g. using individual vendor strength (VMs/K8s; Confidentiality; AI/ML)
 3. 1+2 not "true" multi-cloud, because no choice. Choice can be made possible using an abstraction layer (containers)
 4. Parallel: Same app in multiple clouds -> More abstraction and complexity for better availability (using open source tools like k8s + LB; difficult for proprietary managed services)
 5. Portable: "pinnacle of multi-cloud" (Multi-cloud abstraction frameworks such as Anthos)
 
 But it does not have to be a heavyweight solution like this as we are going to show with our OSS solution
+
+(Backup: Distinction from hybrid: "splitting workload(s) across the cloud and on-premise." -> Decide which workloads to move out)

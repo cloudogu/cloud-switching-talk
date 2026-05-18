@@ -12,9 +12,10 @@ Notes:
 
 * incremental approach 
 * From source instance of CES to target instance
-* Minimizes downtime (esp for large instances, Terabytes of data) and enable early testing
 * Regular delta migrations
-* -> possibility of continual of testing target instance 
+* Two DNS entries
+* Minimizes downtime (esp for large instances, Terabytes of data) and enable early testing
+* -> possibility of continuous testing the target instance 
 
 
 
@@ -24,6 +25,6 @@ Notes:
 * Change DNS Entry -> Change infra without user noticing
 * Import insight: DNS is key for digital sovereignty!  
   When using Domain of your cloud provider or when your domain is managed by cloud provider.  
-  Depenency increases.
+  Dependency increases.
 * As usual: It's always DNS!
 * From this theoretical point of view, let's dive right into the practice.
