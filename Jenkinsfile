@@ -31,6 +31,8 @@ node('docker') {
             git.clean('')
         }
 
+        String conferenceName = '2026-06-itcs'
+
         String pdfName = createPdfName()
 
         String versionName = createVersion()
@@ -68,8 +70,8 @@ node('docker') {
 
         stage('Deploy GH Pages') {
 
-            if (env.BRANCH_NAME == 'main' || forceDeployGhPages) {
-                git.pushGitHubPagesBranch(packagePath, versionName)
+            if ((env.BRANCH_NAME == 'main' && conferenceName) || forceDeployGhPages) {
+                git.pushGitHubPagesBranch(packagePath, versionName, conferenceName)
             } else {
                 echo "Skipping deploy to GH pages, because not on main branch"
             }
