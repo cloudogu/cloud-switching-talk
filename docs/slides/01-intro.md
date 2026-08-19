@@ -19,10 +19,10 @@
 <!-- .slide: data-background-image="images/title-white.svg"  -->
 <h1 class="title" style="margin-top: 0; font-size: 150%">
     <span class="title-accent">//</span> 
-    Bye-bye Lock-in: <br/>Automate cloud switching<br/> using open source
+    Multi-Cloud in reality: <br/>Cloud-Switching automated <br/> as open source solution
 </h1>
 
-<p style="margin-top: 0">Matthias Eiserloh, Johannes Schnatterer 
+<p style="margin-top: 0">Johannes Schnatterer 
 <br/>Cloudogu GmbH</p> 
 
 <div class="state-background">
@@ -39,7 +39,6 @@
 </div>
 
 <div style="font-size:80%">
-<a href='https://www.linkedin.com/in/meiserloh' target="_blank"><i class='fab fa-linkedin'></i> in/meiserloh</a>
 <a href='https://floss.social/@schnatterer' style="margin-left: 50px"><i class='fab fa-mastodon'></i> @schnatterer@floss.social</a>
 <a href='https://www.linkedin.com/in/jschnatterer' target="_blank" style="margin-left: 50px"><i class='fab fa-linkedin'></i> in/jschnatterer</a>
 </div>
@@ -68,33 +67,7 @@ Start with story how we came here
 
 ## But Why?  <!-- .element style="margin-bottom: 0px"-->
 <!-- .slide: id="Cloudogu-EcoSystem" data-auto-animate -->
-<img data-src="images/EcoSystem-Layers-1.svg" title="Cloudogu EcoSystem shown in context/layers" width="99%" />
-
-Notes:
-* CES = OSS Platform for providing tool stacks 
-* Tool-stacks for different use cases
-  * PM Tools like Redmine/OpenProject, combined with wiki tools like blue spice media wiki
-  * SW Dev: Git,CI server, statical code anaylsis, artifact repo
-  * DevOps: ArgoCD, Prometheus, Vault
-* Platform integrates
-  * SSO
-  * Central User Management
-  * cross-tool menu
-* AI
-  * Cross tool queries 
-  * central configuration of LLM Provider
-* LowOps - simplifying operations
-  * Pre-configured tools (SSO, AI, menu) - also when adding tools later 
-  * Integrated monitoring
-  * automatic backups
-  * Automatable updates (incl. Major Updates). This allows a large number of isolated tenants to be kept up to date with little effort.
-* Should run on every infra -> k8s good foundation
-
-
-
-## But Why?  <!-- .element style="margin-bottom: 0px"-->
-<!-- .slide: id="Cloudogu-EcoSystem" data-auto-animate -->
-<img data-src="images/EcoSystem-Layers-2.svg" title="Cloudogu EcoSystem shown in context/layers" width="99%" />
+<img data-src="images/EcoSystem-Layers.drawio.svg" title="Cloudogu EcoSystem shown in context/layers" width="99%" />
 
 Notes:
 * We have been around for about 10 years
@@ -103,95 +76,3 @@ Notes:
 * Migration must be automated
 * Idea: Migration concept for migrating VM -> K8s can also be used for k8s -> k8s.
 * So we built it
-
-
-
-## But Why?  <!-- .element style="margin-bottom: 0px"-->
-<!-- .slide: id="Cloudogu-EcoSystem" data-auto-animate -->
-<img data-src="images/EcoSystem-Layers.drawio.svg" title="Cloudogu EcoSystem shown in context/layers" width="99%" />
-
-Notes:
-With this we can now migrate between cloud provider, on prem, or every other k8s cluster
-
-Why is this important for us?
-
-
-
-### Infra independence through cloud switching
-![](images/Infra-Independence.svg)
-
-Notes:
-* Central promise of CES is infra-independence, data sovereignty through free choice of cloud provider
-* CES run in the cloud, to on-premises up to air-gapped environments for which we built special tooling
-* for the cloud, we have partnerships with sovereign local providers:
-  * Cloud & Heat from Dresden
-  * MetalStack from Munich
-  * Grass Merkur from Hanover
-* Recently we became member of SCS, to use open Standards beyond k8s to extend infra independence 
-* We also deployed on Hyperscalers if needed.
-* With k8s fundamentally establishes infrastructure independence.
-* Nothing special – everyone does k8s these days.
-* Still, nobody likes to switch the cloud provider, because it causes efforts, downtime, risks. 
-* With automatic cloud switching we go one step further, allowing easy change the underlying infrastructure layer i.e., the cloud provider. This can be done without user recognizing it.
-
-
-
-<img src="images/buzzwords.jpg" class="floatRight fragment" style="border-radius: 5px">
-
-### Reasons to switch
-
-
-* 🇺🇸
-  <i class="fas fa-arrow-left"></i><i class="fas fa-arrow-right"></i>
-  🇪🇺
-* 💶💶💶
-  <i class="fas fa-arrow-right"></i>
-  💶
-* <i class="fas fa-cloud" style="color: #24A2DC;"></i>
-  <i class="fas fa-arrow-left"></i><i class="fas fa-arrow-right"></i>
- 🏠️
-* ...
-
-‼️ Ability to switch (digital sovereignty)
-
-➡️ Multi Cloud
-
-Notes:
-* Why change at all?
-* Political uncertainty -> Being able to bring workloads back to home country.
-  Or maybe when times change, bring it back because, cheaper, more compute available, etc.
-* Evergreen: Cost increase
-* Migrating workloads from on prem to the cloud or back
-* Can be many reasons.
-* Most important for all: Ability to switch -> Also core aspect of digi sov
-* On the tech-side all these use cases belong to the term multi-cloud
-* A lot of buzzwords! Questions
-  * Is Multi Cloud a mere buzzword to you?
-  * Who is using multi cloud architectures?
-* IMO on a political level multi cloud is used as an abstract buzzword, similar to AI
-* But for us techies, we can make it more concrete.
-* I'd like to present a model to get there
-
-
-
-<!-- .slide: style="text-align: center" -->
-### Multi Cloud Architecture Options
-
-![](images/multi_cloud_architecture_options.png)
-
-🌐 [architectelevator.com/cloud/hybrid-multi-cloud](https://architectelevator.com/cloud/hybrid-multi-cloud/)
-
-Note:
-* Gregor Hohpe: MC = "running workloads with more than one cloud provider"
-* Multi-Cloud: Architecture decision -> Strategy.
-* GH sees 5 categories
-
-1. Arbitrary: No strategy, switch when too expensive, for example
-2. Segmented:  different vendor preferences for different kind of workloads, e.g. using individual vendor strength (VMs/K8s; Confidentiality; AI/ML)
-3. 1+2 not "true" multi-cloud, because no choice. Choice can be made possible using an abstraction layer (containers)
-4. Parallel: Same app in multiple clouds -> More abstraction and complexity for better availability (using open source tools like k8s + LB; difficult for proprietary managed services)
-5. Portable: "pinnacle of multi-cloud" (Multi-cloud abstraction frameworks such as Anthos)
-
-But it does not have to be a heavyweight solution like this as we are going to show with our OSS solution
-
-(Backup: Distinction from hybrid: "splitting workload(s) across the cloud and on-premise." -> Decide which workloads to move out)

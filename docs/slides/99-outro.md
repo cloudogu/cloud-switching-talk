@@ -2,9 +2,8 @@
 <!-- .slide: id="last" -->
 <!-- .slide: style="text-align: center !important;"  -->
 
-<p style="font-weight: bolder">Matthias Eiserloh, Johannes Schnatterer<br/> Cloudogu GmbH</p>
+<p style="font-weight: bolder">Johannes Schnatterer<br/> Cloudogu GmbH</p>
 
-<a href='https://www.linkedin.com/in/meiserloh' target="_blank" style="font-size:80%"><i class='fab fa-linkedin'></i> in/meiserloh</a>
 <a href='https://floss.social/@schnatterer' target="_blank" style="font-size:80%"><i class='fab fa-mastodon'></i> @schnatterer@floss.social</a>
 <a href='https://www.linkedin.com/in/jschnatterer' target="_blank" style="font-size:80%; margin-left: 50px"><i class='fab fa-linkedin'></i> in/jschnatterer</a>
 
