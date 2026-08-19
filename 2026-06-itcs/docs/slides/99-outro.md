@@ -60,5 +60,3 @@ Notes:
 
 * Automatic Cloud Switching  
   https://www.freepik.com/free-vector/cloud-network-technology-icon-white-gradient-background_16406372.htm
-* Buzzwords  
-  https://makeameme.org/meme/buzzwords-buzzwords-everywhere-a120508e67
