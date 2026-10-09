@@ -19,7 +19,7 @@
 <!-- .slide: data-background-image="images/title-white.svg"  -->
 <h1 class="title" style="margin-top: 0; font-size: 150%">
     <span class="title-accent">//</span> 
-    Multi-Cloud in reality: <br/>Cloud-Switching automated <br/> as open source solution
+    Live Cloud Migration:<br/>From Google Cloud <br/>to metalstack.cloud
 </h1>
 
 <p style="margin-top: 0">Johannes Schnatterer 
@@ -55,24 +55,20 @@
 
 Notes:
 
-Present our concept for cloud switching, incl OSS impl.
-Concretely: 
-1. How come we implemented automatic cloud switching
-2. how automatic cloud switching works
-3. switch cloud provider life
-
-Start with story how we came here 
+Story including demo
 
 
 
-## But Why?  <!-- .element style="margin-bottom: 0px"-->
-<!-- .slide: id="Cloudogu-EcoSystem" data-auto-animate -->
-<img data-src="images/EcoSystem-Layers.drawio.svg" title="Cloudogu EcoSystem shown in context/layers" width="99%" />
+<!-- .slide: data-background-image="images/cloudogu-ecosystem-screenshot.png"  -->
+<!-- .slide: style="text-align: center !important"  -->
+<div style="border-radius: 5px; border: 4px solid #777;background-color: rgba(255,255,255,0.90);">
+<br/>
+<br/>
+<h1 style="margin: 0 0 0 0; color: #5b5a5a;" >Demo</h1>
+<br/>
+<br/>
+</div>
 
-Notes:
-* We have been around for about 10 years
-* Back then k8s not the de-facto standard it is today
-* We started shipping VMs and now have several hundred instances in prod
-* Migration must be automated
-* Idea: Migration concept for migrating VM -> K8s can also be used for k8s -> k8s.
-* So we built it
+---
+
+<!-- .slide: data-background-image="images/cloudogu-ecosystem-features.svg"  -->

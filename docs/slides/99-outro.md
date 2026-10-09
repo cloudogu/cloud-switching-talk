@@ -23,11 +23,13 @@
 
   <div style="display: inline-block; width: 220px; height: 250px; vertical-align: top; border: 2px solid #23a3dd; border-radius: 10px; overflow: hidden;">
     <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
-      <img src="images/red-stack-logo.jpg"
+      <a title="Link to magazine" href="https://www.doag.org/de/home/news/ab-sofort-verfuegbar-red-stack-magazin-nr-3-2026/" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; text-decoration: none;">
+        <img src="images/red-stack-logo.jpg"
            style="display: block; margin: 0 auto; width: 200px; height: 200px; object-fit: contain;" />
       <div style="margin: 0 0 10px; padding: 0; line-height: 1; font-size: 70%">
          03/26<br/> (2026/08/14)
       </div>
+      </a>
     </div>
   </div>
 

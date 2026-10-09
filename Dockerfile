@@ -1,5 +1,5 @@
 FROM ghcr.io/cloudogu/reveal.js:5.2.1-r3 as aggregator
-ENV TITLE='Multi-Cloud in reality: Cloud-Switching automated as open source solution'
+ENV TITLE='Live Cloud Migration: From Google Cloud to metalstack.cloud'
 ENV THEME_CSS='cloudogu.css'
 ENV WIDTH='1280'
 USER root
