@@ -49,7 +49,7 @@
 </div>
 
 <p id="pdf" class="state-background" style="font-size: 70%">
-    <a href="pdf/Multi-Cloud in reality Cloud-Switching automated as open source solution.pdf">
+    <a href="pdf/Live Cloud Migration From Google Cloud to metalstack.cloud.pdf">
        <i class="far fa-file-pdf"></i>
 </a></p>
 
@@ -72,3 +72,7 @@ Story including demo
 ---
 
 <!-- .slide: data-background-image="images/cloudogu-ecosystem-features.svg"  -->
+
+
+
+<!-- .slide: data-background-image="images/cloudogu-ecosystem-practice.svg"  -->
