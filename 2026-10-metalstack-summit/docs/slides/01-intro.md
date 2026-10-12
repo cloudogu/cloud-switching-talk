@@ -45,7 +45,7 @@
 
 
 <div class="title-version">
-Version: 202610090954-993f84c
+Version: 202610121723-d5e5ebc
 </div>
 
 <p id="pdf" class="state-background" style="font-size: 70%">
@@ -72,3 +72,7 @@ Story including demo
 ---
 
 <!-- .slide: data-background-image="images/cloudogu-ecosystem-features.svg"  -->
+
+
+
+<!-- .slide: data-background-image="images/cloudogu-ecosystem-practice.svg"  -->
