@@ -19,7 +19,7 @@
 <!-- .slide: data-background-image="images/title-white.svg"  -->
 <h1 class="title" style="margin-top: 0; font-size: 150%">
     <span class="title-accent">//</span> 
-    Live Cloud Migration:<br/>From Google Cloud <br/>to metalstack.cloud
+    Multi-Cloud in Practice: <br/>An Open Source Solution <br/>to Automated Cloud Switching
 </h1>
 
 <p style="margin-top: 0">Johannes Schnatterer 
@@ -49,30 +49,8 @@
 </div>
 
 <p id="pdf" class="state-background" style="font-size: 70%">
-    <a href="pdf/Live Cloud Migration From Google Cloud to metalstack.cloud.pdf">
+    <a href="pdf/Multi-Cloud in Practice An Open Source Solution to Automated Cloud Switching.pdf">
        <i class="far fa-file-pdf"></i>
 </a></p>
 
 Notes:
-
-Story including demo
-
-
-
-<!-- .slide: data-background-image="images/cloudogu-ecosystem-screenshot.png"  -->
-<!-- .slide: style="text-align: center !important"  -->
-<div style="border-radius: 5px; border: 4px solid #777;background-color: rgba(255,255,255,0.90);">
-<br/>
-<br/>
-<h1 style="margin: 0 0 0 0; color: #5b5a5a;" >Demo</h1>
-<br/>
-<br/>
-</div>
-
----
-
-<!-- .slide: data-background-image="images/cloudogu-ecosystem-features.svg"  -->
-
-
-
-<!-- .slide: data-background-image="images/cloudogu-ecosystem-practice.svg"  -->

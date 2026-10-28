@@ -27,7 +27,7 @@
         <img src="images/red-stack-logo.jpg"
            style="display: block; margin: 0 auto; width: 200px; height: 200px; object-fit: contain;" />
       <div style="margin: 0 0 10px; padding: 0; line-height: 1; font-size: 70%">
-         03/26<br/> (2026/08/14)
+         03/26<br/> (2026/11/06)
       </div>
       </a>
     </div>
@@ -44,21 +44,3 @@
     </a>
   </div>
 </div>
-
-Notes:
-* End of presentation
-* Solution OSS for more details see repos
-* Questions?
-* Feedback to our concept
-  * Practical use for incremental migration as opposed to cold/static backup and restore?
-  * Sounds reasonable, but this or that is missing?
-
-
-
-
-
-# Image sources
-<!-- .slide: style="font-size: 70%; " -->
-
-* Automatic Cloud Switching  
-  https://www.freepik.com/free-vector/cloud-network-technology-icon-white-gradient-background_16406372.htm
