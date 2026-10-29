@@ -27,7 +27,7 @@
         <img src="images/red-stack-logo.jpg"
            style="display: block; margin: 0 auto; width: 200px; height: 200px; object-fit: contain;" />
       <div style="margin: 0 0 10px; padding: 0; line-height: 1; font-size: 70%">
-         03/26<br/> (2026/08/14)
+         03/26<br/> (2026/11/06)
       </div>
       </a>
     </div>
