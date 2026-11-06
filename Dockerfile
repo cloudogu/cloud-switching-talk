@@ -1,5 +1,5 @@
 FROM ghcr.io/cloudogu/reveal.js:5.2.1-r3 as aggregator
-ENV TITLE='Multi-Cloud in Practice: An Open Source Solution to Automated Cloud Switching'
+ENV TITLE='Bye-bye Lock-in: Automate cloud switching using open source'
 ENV THEME_CSS='cloudogu.css'
 ENV WIDTH='1280'
 USER root
