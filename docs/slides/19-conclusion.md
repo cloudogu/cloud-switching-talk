@@ -1,3 +1,10 @@
+## What we learned
+* ✅ PoCs helped de-risk key decisions
+* ✅ Separation (exporter / importer) kept it flexible
+* ❌ Manual testing became a bottleneck
+
+
+
 ## Conclusion
 
 Migration without the usual pain

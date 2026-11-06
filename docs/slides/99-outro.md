@@ -2,8 +2,10 @@
 <!-- .slide: id="last" -->
 <!-- .slide: style="text-align: center !important;"  -->
 
-<p style="font-weight: bolder">Johannes Schnatterer<br/> Cloudogu GmbH</p>
 
+<p style="font-weight: bolder">Matthias Eiserloh, Johannes Schnatterer<br/> Cloudogu GmbH</p>
+
+<a href='https://www.linkedin.com/in/meiserloh' target="_blank" style="font-size:80%"><i class='fab fa-linkedin'></i> in/meiserloh</a>
 <a href='https://floss.social/@schnatterer' target="_blank" style="font-size:80%"><i class='fab fa-mastodon'></i> @schnatterer@floss.social</a>
 <a href='https://www.linkedin.com/in/jschnatterer' target="_blank" style="font-size:80%; margin-left: 50px"><i class='fab fa-linkedin'></i> in/jschnatterer</a>
 
@@ -23,11 +25,11 @@
 
   <div style="display: inline-block; width: 220px; height: 250px; vertical-align: top; border: 2px solid #23a3dd; border-radius: 10px; overflow: hidden;">
     <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
-      <a title="Link to magazine" href="https://www.doag.org/de/home/news/ab-sofort-verfuegbar-red-stack-magazin-nr-3-2026/" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; text-decoration: none;">
+      <a title="Link to magazine" href="https://meine.doag.org/zeitschriften/id.233.ab-sofort-verfuegbar-red-stack-magazin-nr-3-2026/" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; text-decoration: none;">
         <img src="images/red-stack-logo.jpg"
            style="display: block; margin: 0 auto; width: 200px; height: 200px; object-fit: contain;" />
       <div style="margin: 0 0 10px; padding: 0; line-height: 1; font-size: 70%">
-         03/26<br/> (2026/11/06)
+         03/26
       </div>
       </a>
     </div>
@@ -44,3 +46,12 @@
     </a>
   </div>
 </div>
+
+
+
+
+# Image sources
+<!-- .slide: style="font-size: 70%; " -->
+
+* Automatic Cloud Switching  
+  https://www.freepik.com/free-vector/cloud-network-technology-icon-white-gradient-background_16406372.htm
